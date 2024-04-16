@@ -8,4 +8,10 @@
 }
 body {
     font-family: var(--main-font);
+    background-color: darkslategray;
+}
+.container {
+    max-width: 1246px;
+    width: 100%;
+    padding: 0 15px;
 }
