@@ -339,7 +339,7 @@ template {
 
 body {
   font-family: var(--main-font);
-  background-color: darkslategray;
+  font-size: 16px;
 }
 
 .container {
@@ -347,4 +347,41 @@ body {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+}
+x
+.header {
+  position: relative;
+}
+
+.header__row {
+  display: flex;
+}
+
+.header__logo img {
+  display: block;
+}
+
+.header__sidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: var(--accent-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 60px 20px;
+}
+
+.header__sidebar--item {
+  display: flex;
+  color: var(--light-color);
+}
+.header__sidebar--item + * {
+  margin-top: 20px;
+}
+
+.humburger__btn {
+  width: 40px;
+  height: 40px;
+  background-color: var(--accent-color);
+  border: none;
 }

@@ -1,0 +1,41 @@
+.header {
+    position: relative;
+}
+.header__row {
+    display: flex;
+}
+.header__logo img {
+    display: block; 
+    width: ;
+}
+.header__nav {
+}
+.header__nav--item {
+}
+.hidden {
+}
+.header__sidebar {
+    width: 260px;
+    height: 100vh;
+    background-color: var(--accent-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 60px 20px;
+}
+.header__sidebar--item {
+    display: flex;
+    color: var(--light-color);
+
+    & + * {
+        margin-top: 20px;
+    }
+}
+.header__btn {
+}
+.humburger__btn {
+    width: 40px;
+    height: 40px;
+    background-color: var(--accent-color);
+    border: none;
+}
