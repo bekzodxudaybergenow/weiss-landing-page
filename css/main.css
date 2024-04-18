@@ -348,7 +348,28 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
-x
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 24px;
+  max-width: 146px;
+  height: 40px;
+  font-size: 16px;
+  color: var(--light-color);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 14px 18px;
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .header {
   position: relative;
 }
