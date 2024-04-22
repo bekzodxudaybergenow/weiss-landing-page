@@ -389,13 +389,28 @@ body {
 }
 
 .header__sidebar {
-  width: 260px;
+  width: 240px;
   height: 100vh;
   background-color: var(--accent-color);
   position: absolute;
   top: 0;
-  left: 0;
-  padding: 60px 20px;
+  left: -240px;
+  padding: 80px 28px 0;
+  z-index: 2;
+  transition: left 0.3s ease;
+}
+
+.header__sidebar--btn {
+  position: absolute;
+  top: 28px;
+  right: 40px;
+  border: none;
+  background-color: transparent;
+}
+.header__sidebar--btn img {
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 .header__sidebar--item {
@@ -436,4 +451,14 @@ body {
   height: 3px;
   background-color: var(--light-color);
   border-radius: 4px;
+}
+
+.shadow {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
