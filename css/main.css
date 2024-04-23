@@ -388,6 +388,10 @@ body {
   height: 32px;
 }
 
+.header__nav {
+  display: none;
+}
+
 .header__sidebar {
   width: 240px;
   height: 100vh;
@@ -461,4 +465,40 @@ body {
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+  .header__logo:hover {
+    opacity: 0.8;
+  }
+  .header__nav {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+    margin-right: 20px;
+  }
+  .header__nav--item {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--main-color);
+    transition: color 0.3s ease;
+    position: relative;
+  }
+  .header__nav--item:hover {
+    color: var(--accent-color);
+  }
+  .header__btn {
+    display: none;
+  }
+  .humburger__btn {
+    transition: opacity 0.2s ease;
+  }
+  .humburger__btn:hover {
+    opacity: 0.8;
+  }
 }
