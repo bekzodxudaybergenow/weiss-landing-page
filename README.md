@@ -7,4 +7,4 @@ Qo'shimcha foydalanildi: TinyPNG, SVGOMG, Swiperjs, Tranfonter;
 
 
 
-![Weiss-design]()
+![Weiss-design](https://github.com/bekzodxudaybergenow/weiss-landing-page/blob/master/images/weiss-design.png)
