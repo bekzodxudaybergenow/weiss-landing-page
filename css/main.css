@@ -326,6 +326,7 @@ template {
   --text-color: #929A9F;
   --accent-color: #FF9900;
   --light-color: #FFFFFF;
+  --background: #F5F8FA;
 }
 
 *,
@@ -380,6 +381,7 @@ body {
 }
 
 .subtitle {
+  display: inline-block;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
@@ -398,6 +400,10 @@ body {
   font-weight: 500;
   line-height: 22px;
   color: var(--text-color);
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
 }
 
 .header {
