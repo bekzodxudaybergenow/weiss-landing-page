@@ -7,6 +7,7 @@ let heroPictureImg = document.querySelector('.hero-picture__image');
 let heroPopup = document.querySelector('.hero-popup');
 let heroPopupClosebtn = document.querySelector('.hero-popup__close-btn');
 let heroPopupShadow = document.querySelector('.hero-popup__shadow');
+let heroPictureZoomImg = document.querySelector('.hero-picture__zoom-img');
 
 
 
@@ -25,6 +26,9 @@ shadow.addEventListener('click', () => {
 
 // Popup image in hero section
 heroPictureImg.addEventListener('click', () => {
+    heroPopup.classList.remove('hidden');
+})
+heroPictureZoomImg.addEventListener('click', () => {
     heroPopup.classList.remove('hidden');
 })
 heroPopupClosebtn.addEventListener('click', () => {
