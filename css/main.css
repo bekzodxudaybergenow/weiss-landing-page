@@ -749,8 +749,22 @@ h1, h2, h3, h4 {
   .hero-content__btn {
     margin: 0;
   }
+  .hero-picture {
+    position: relative;
+  }
+  .hero-picture::after {
+    content: "";
+    width: 392px;
+    height: 500px;
+    position: absolute;
+    top: 60px;
+    left: -40px;
+    z-index: -1;
+    background-color: var(--background);
+  }
   .hero-picture__image {
     max-width: 392px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   }
   .hero-picture__zoom-img {
     top: 22px;
