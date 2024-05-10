@@ -771,3 +771,33 @@ h1, h2, h3, h4 {
     left: 28px;
   }
 }
+@media screen and (min-width: 1210px) {
+  .hero-row {
+    justify-content: space-around;
+  }
+  .hero-content {
+    align-self: flex-start;
+    padding-top: 90px;
+  }
+  .hero-content__subtitle {
+    margin-bottom: 12px;
+  }
+  .hero-content__desc {
+    max-width: 440px;
+  }
+  .hero-picture::after {
+    width: 510px;
+    height: 650px;
+  }
+  .hero-picture__image {
+    max-width: 510px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-row {
+    justify-content: space-between;
+  }
+  .hero-picture::after {
+    top: 80px;
+  }
+}
