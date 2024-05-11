@@ -67,3 +67,16 @@ body {
 h1,h2,h3,h4 {
     margin: 0;
 }
+.link {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--accent-color);
+
+    img {
+        margin-top: 4px;
+    }
+}
