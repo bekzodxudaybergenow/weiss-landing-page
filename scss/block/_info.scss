@@ -1,0 +1,33 @@
+.info {
+    background-color: var(--main-color);
+}
+.info-row {
+    padding: 60px 0 40px;
+}
+.info-content {
+    max-width: 494px;
+    margin-bottom: 30px;
+}
+.info-content__subtitle {
+    margin-bottom: 6px;
+}
+.info-content__title {
+    line-height: 35px;
+    color: var(--light-color);
+    margin-bottom: 20px;
+}
+.info-content__desc {
+    font-size: 15px;
+    margin-bottom: 28px;
+    color: var(--light-color);
+}
+.info-content__link {
+    color: var(--light-color);
+}
+.info-picture {
+    & img {
+        max-width: 488px;
+        display: block;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    }
+}
