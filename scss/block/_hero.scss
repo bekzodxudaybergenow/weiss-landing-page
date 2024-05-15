@@ -118,20 +118,26 @@
         margin: 65px 0;
     }
     .hero-row {
+        position: relative;
         flex-direction: row;
-        justify-content: space-evenly;
+        max-width: 990px;
+        padding: 40px 0 100px;
+        margin: 0 auto;
     }
     .hero-content {
         align-self: left;
-        text-align: left;
         max-width: 470px;
+        text-align: left;
         margin-bottom: 0;
     }
     .hero-content__btn {
         margin: 0;
     }
     .hero-picture {
-        position: relative;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
         
         &::after {
             content: '';
@@ -156,7 +162,7 @@
 }
 @media screen and (min-width: 1210px) {
     .hero-row {
-        justify-content: space-around;
+        max-width: 1120px;
     }
     .hero-content {
         align-self: flex-start;
@@ -180,11 +186,9 @@
 }
 @media screen and (min-width: 1440px) {
     .hero-row {
-        justify-content: space-between;
+        max-width: 100%;
     }
     .hero-picture {
-        &::after {
-            top: 80px;
-        }
+        top: 60px;
     }
 }
