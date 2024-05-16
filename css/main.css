@@ -874,7 +874,7 @@ h1, h2, h3, h4 {
 }
 @media screen and (min-width: 1024px) {
   .service {
-    padding: 120px 0 100px;
+    padding: 120px 0 200px;
     position: relative;
     z-index: 1;
   }
@@ -885,7 +885,7 @@ h1, h2, h3, h4 {
 }
 @media screen and (min-width: 1210px) {
   .service {
-    padding: 160px 0 100px;
+    padding: 160px 0 260px;
   }
 }
 @media screen and (min-width: 1440px) {
