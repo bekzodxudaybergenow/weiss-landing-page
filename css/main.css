@@ -1059,7 +1059,7 @@ h1, h2, h3, h4 {
 }
 
 .detail-list__item {
-  max-width: 428px;
+  max-width: 360px;
 }
 
 .detail-item__title {
@@ -1071,4 +1071,67 @@ h1, h2, h3, h4 {
 .detail-item__desc {
   font-size: 15px;
   margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .detail {
+    padding: 60px 0 80px;
+  }
+  .detail-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 40px;
+  }
+  .detail-list__item {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .detail {
+    padding: 80px 0 180px;
+  }
+  .detail-row {
+    position: relative;
+  }
+  .detail-content {
+    margin-bottom: 80px;
+  }
+  .detail-content__title {
+    margin-bottom: 16px;
+  }
+  .detail-content__btn {
+    position: absolute;
+    top: 75px;
+    right: 0;
+  }
+  .detail-subtitle {
+    margin-bottom: 25px;
+  }
+  .detail-list {
+    justify-content: space-between;
+    column-gap: 0;
+  }
+  .detail-list__item {
+    max-width: 320px;
+  }
+  .detail-item__title {
+    margin-bottom: 18px;
+  }
+}
+@media screen and (min-width: 1210px) {
+  .detail {
+    padding: 80px 0 250px;
+  }
+  .detail-list__item {
+    max-width: 360px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .detail {
+    padding: 200px 0 250px;
+  }
+  .detail-content__btn {
+    top: 90px;
+  }
 }
