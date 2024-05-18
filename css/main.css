@@ -1022,3 +1022,53 @@ h1, h2, h3, h4 {
     height: 662px;
   }
 }
+.detail {
+  padding: 40px 0 60px;
+}
+
+.detail-content {
+  max-width: 488px;
+  margin-bottom: 54px;
+}
+
+.detail-content__title {
+  font-size: 32px;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+.detail-content__desc {
+  font-size: 16px;
+  margin-bottom: 26px;
+}
+
+.detail-content__btn {
+  max-width: 154px;
+}
+
+.detail-subtitle {
+  margin-bottom: 10px;
+}
+
+.detail-list {
+  list-style: none;
+}
+
+.detail-list__item + * {
+  margin-top: 20px;
+}
+
+.detail-list__item {
+  max-width: 428px;
+}
+
+.detail-item__title {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+.detail-item__desc {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
