@@ -1161,5 +1161,55 @@ h1, h2, h3, h4 {
 }
 
 .contact-picture img {
+  display: block;
   max-width: 460px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    padding: 60px 0 60px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contact-row {
+    display: flex;
+    position: relative;
+  }
+  .contact-picture {
+    position: absolute;
+    right: 0px;
+    top: -120px;
+  }
+  .contact-picture img {
+    max-width: 528px;
+  }
+}
+@media screen and (min-width: 1210px) {
+  .contact {
+    padding: 110px 0 120px;
+  }
+  .contact-picture {
+    top: -200px;
+  }
+  .contact-picture img {
+    max-width: 628px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .contact-content {
+    max-width: 328px;
+  }
+  .contact-content__subtitle {
+    margin-bottom: 16px;
+  }
+  .contact-content__title {
+    margin-bottom: 24px;
+  }
+  .contact-content__desc {
+    margin-bottom: 32px;
+  }
+  .contact-picture img {
+    max-width: 768px;
+  }
 }
