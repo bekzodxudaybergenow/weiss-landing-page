@@ -1,0 +1,25 @@
+.contact {
+    padding: 40px 0 40px;
+    background-color: var(--background);
+}
+.contact-content {
+    max-width: 490px;
+    margin-bottom: 34px;
+}
+.contact-content__subtitle {
+    margin-bottom: 6px;
+}
+.contact-content__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.contact-content__desc {
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+.contact-picture {
+    & img {
+        max-width: 460px;
+    }
+}
