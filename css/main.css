@@ -422,7 +422,13 @@ h1, h2, h3, h4 {
 }
 
 .header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  opacity: 1;
+  background-color: var(--light-color);
 }
 
 .header__row {
@@ -526,6 +532,14 @@ h1, h2, h3, h4 {
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+
+.sroll {
+  top: -80px;
+}
+
+.scroll-shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (min-width: 768px) {
