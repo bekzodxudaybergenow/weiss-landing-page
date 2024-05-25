@@ -10,6 +10,30 @@ let heroPopupShadow = document.querySelector('.hero-popup__shadow');
 let heroPictureZoomImg = document.querySelector('.hero-picture__zoom-img');
 
 
+let headerList = document.querySelector('.header');
+let headerScroll = window.pageYOffset;
+
+window.addEventListener('scroll', () => {
+    let currentScroll = window.pageYOffset;
+
+    console.log(currentScroll);
+
+    if (headerScroll < currentScroll) {
+       headerList.classList.add('sroll');
+    }
+    else if (currentScroll == 0) {
+        headerList.classList.remove('scroll-shadow')
+    }
+    else {
+        headerList.classList.add('scroll-shadow')
+        headerList.classList.remove('sroll');
+    }
+
+    headerScroll = currentScroll;
+})
+
+
+
 
 humburgerBtn.addEventListener('click', () => {
     headerSidebar.style.left = '0';
