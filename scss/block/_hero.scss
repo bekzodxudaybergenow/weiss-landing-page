@@ -1,5 +1,5 @@
 .hero {
-    margin: 32px 0;
+    margin: 110px 0 32px;
 }
 .hero-row {
     display: flex;
@@ -94,7 +94,7 @@
 }
 @media screen and (min-width: 575px) {
     .hero {
-        margin-top: 54px;
+        margin-top: 140px;
     }
     .hero-content {
         max-width: 570px;
@@ -115,7 +115,7 @@
 }
 @media screen and (min-width: 1024px) {
     .hero {
-        margin: 65px 0;
+        margin: 140px 0 65px;
     }
     .hero-row {
         position: relative;
