@@ -1213,3 +1213,63 @@ h1, h2, h3, h4 {
     max-width: 768px;
   }
 }
+.footer {
+  padding: 56px 0 20px;
+  background-color: var(--main-color);
+}
+
+.footer-content {
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.footer-logo img {
+  display: block;
+  width: 110px;
+  height: auto;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list__item + * {
+  margin-top: 36px;
+}
+
+.footer-item__title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: var(--light-color);
+}
+
+.footer-item__link {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 24px;
+  color: var(--light-color);
+}
+
+.footer-line {
+  height: 1px;
+  width: 100%;
+  border: none;
+  opacity: 0.2;
+  background-color: var(--light-color);
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.2;
+  color: var(--light-color);
+}
